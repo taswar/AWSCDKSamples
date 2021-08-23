@@ -1,3 +1,7 @@
+![Logo](http://taswar.zeytinsoft.com/wp-content/uploads/2021/08/aws-cdk-csharp-930x351.png "CDK with Csharp DotNet")
+
+* Original Post at (http://taswar.zeytinsoft.com/using-aws-cdk-to-create-a-vpc-in-c/)
+
 I wanted to start a series of how to use AWS Cloud Development Kit (CDK) to create infrastructure on Amazon. In our first example we will tackle the fundamental of a Virtual Private Cloud (VPC). We will be using AWS CDK to create a VPC in C#. You may wonder what about CloudFormation json or yaml files that Amazon allows one to create infrastructure that you maybe very comfortable in doing it, is CDK replacing that?
 
 ### What about CloudFormation?
