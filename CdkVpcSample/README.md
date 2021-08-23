@@ -38,7 +38,7 @@ The diagram below shows us the VPC that contains two Availability Zones, and in 
 Usually you want to put your infra in private and only allow certain traffic to go through and reach them through the public
 ```
 
-[caption id="attachment\_3617" align="alignnone" width="721"\]![VPC-subnet](http://taswar.zeytinsoft.com/wp-content/uploads/2021/08/VPC-subnet.png) VPC-subnet\[/caption\]
+![VPC-subnet](http://taswar.zeytinsoft.com/wp-content/uploads/2021/08/VPC-subnet.png "VPC-subnet")
 
 ### Requirements for CDK
 
@@ -118,13 +118,13 @@ We can now open the **sln** file in our visual studio and lets modify the **Prog
 
                 // Uncomment the next block to specialize this stack for the AWS Account
                 // and Region that are implied by the current CLI configuration.
-                /\*
+                /*
                 Env = new Amazon.CDK.Environment
                 {
                     Account = System.Environment.GetEnvironmentVariable("CDK\_DEFAULT\_ACCOUNT"),
                     Region = System.Environment.GetEnvironmentVariable("CDK\_DEFAULT\_REGION"),
                 }
-                \*/
+                */
 
                 // Uncomment the next block if you know exactly what Account and Region you
                 // want to deploy the stack to.
