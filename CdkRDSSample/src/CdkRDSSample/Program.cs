@@ -31,8 +31,8 @@ namespace CdkRDSSample
                 
                 Env = new Amazon.CDK.Environment
                 {
-                    Account = "659597744816", //fill in here
-                    Region = "eu-central-1" // fill in here e.g "eu-central-1", us-east-1 etc
+                    Account = "", //fill in here
+                    Region = "" // fill in here e.g "eu-central-1", us-east-1 etc
                 }
                 
 
