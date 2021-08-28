@@ -38,6 +38,7 @@ Before we get started I wanted to provide some information on VPC. With Amazon V
 
 The diagram below shows us the VPC that contains two Availability Zones, and in each one you will see there are 2 subnets a public and a private subnet. The public subnet will allow internet traffic while the private will not. 
 
+> **⚠ NOTE: 
 > Usually you want to put your infra in private and only allow certain traffic to go through and reach them through the public
 
 ![VPC-subnet](http://taswar.zeytinsoft.com/wp-content/uploads/2021/08/VPC-subnet.png "VPC-subnet")
@@ -196,6 +197,7 @@ Let's now try to build the project going to the root directory where **src** dir
 $ dotnet build src
 ```
 
+> **⚠ NOTE: 
 > Remember to target to .NET 5 or 6, you can change that in Visual Studio by right click and properties section.
 
 ### How do deploy
