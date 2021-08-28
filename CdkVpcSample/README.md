@@ -38,9 +38,7 @@ Before we get started I wanted to provide some information on VPC. With Amazon V
 
 The diagram below shows us the VPC that contains two Availability Zones, and in each one you will see there are 2 subnets a public and a private subnet. The public subnet will allow internet traffic while the private will not. 
 
-```
-Usually you want to put your infra in private and only allow certain traffic to go through and reach them through the public
-```
+> Usually you want to put your infra in private and only allow certain traffic to go through and reach them through the public
 
 ![VPC-subnet](http://taswar.zeytinsoft.com/wp-content/uploads/2021/08/VPC-subnet.png "VPC-subnet")
 
@@ -198,9 +196,7 @@ Let's now try to build the project going to the root directory where **src** dir
 $ dotnet build src
 ```
 
-```
-Remember to target to .NET 5 or 6, you can change that in Visual Studio by right click and properties section.
-```
+> Remember to target to .NET 5 or 6, you can change that in Visual Studio by right click and properties section.
 
 ### How do deploy
 
@@ -216,9 +212,8 @@ Default output format [None]: json
 
 Now you can finally deploy with cdk using the **cdk deploy** command. 
 
-```
-Warning: This may incur AWS charges
-```
+> Warning: This may incur AWS charges
+
 
 If you now login to the AWS console you will see in **Cloudformation** section that your **Stack** was created, and also in your **VPC** section the VPC was create with public and private **subnet**.
 
