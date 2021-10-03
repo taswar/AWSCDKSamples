@@ -39,7 +39,7 @@ namespace CdkRDSSample
                 InstanceType = InstanceType.Of(InstanceClass.BURSTABLE2, InstanceSize.MICRO),
                 Port = dbPort,
                 InstanceIdentifier = "MyDbInstance",
-                BackupRetention = Duration.Seconds(0) //not a good idea in prod, for sample it's ok
+                BackupRetention = Duration.Seconds(0) //not a good idea in prod, for this sample code it's ok
             });
         }
     }
