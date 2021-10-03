@@ -43,8 +43,9 @@ There are two types of policies one is managed policy and also an inline policy.
 ### Show me some code now please
 
 Sorry to bore you with all the details but those roles and policy are important and when things don't work they could be culprits of them. But in any case we will be adding IAM to our solution now, check out the diagram below. You will notice that IAM is outside our VPC, since IAM is a global service it will be out side and we will attach the role inside to the EC2 machine in our later post. 
-![AWSCDKIAMRole](http://taswar.zeytinsoft.com/wp-content/uploads/2021/10/CDKIAMRole2.png, "AWS CDK IAM Role") 
 Now our stack we will look like this now
+![AWSCDKIAMRole](http://taswar.zeytinsoft.com/wp-content/uploads/2021/10/CDKIAMRole2.png, "AWS CDK IAM Role") 
+
 
 ``` csharp
 using Amazon.CDK;
